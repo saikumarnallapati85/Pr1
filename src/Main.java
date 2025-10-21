@@ -1,11 +1,23 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello World!"));
-    IO.println(String.format("Sai Kumar"));
+import java.util.Scanner;
 
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int sum = 0;
 
+        System.out.println("Enter 5 numbers:");
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.print("Number " + i + ": ");
+            int num = scanner.nextInt();
+            sum += num;
+        }
+
+        System.out.println("The sum of the 5 numbers is: " + sum);
+        scanner.close();
     }
+}
+
+
+
 
