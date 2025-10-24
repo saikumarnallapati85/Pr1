@@ -1,4 +1,6 @@
+package week1day4;
 import java.util.Scanner;
+
 
 // Base class
 class Shape {
@@ -87,4 +89,3 @@ public class ShapeTest {
         scanner.close();
     }
 }
-1
