@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Week1Test {
     public static void main(String[] args) {
         System.out.println("Enter a number : ");
+        System.out.println("Enter a String : ");
         Scanner sc = new Scanner(System.in);
         Scanner sca = new Scanner(System.in);
         int number = sc.nextInt();
@@ -22,21 +23,21 @@ public class Week1Test {
             factor *= i;
 
         }
-        System.out.println("The factorial is: " + factor);
+        System.out.println("The factorial of "  + number +  " is: " + factor);
 
 
         for( int j = word.length() - 1; j >= 0; j--)
         {
             rev += word.charAt(j);
         }
-System.out.println("Reverse is: " + rev);
+System.out.println("Reverse of "  +  word  + " is: " + rev);
         if(word.equals(rev))
             {
-            System.out.println("The word is a palindrome.");
+            System.out.println("The word "  +  word  + " is a palindrome.");
             }
         else
         {
-            System.out.println("The word is not a palindrome.");
+            System.out.println("The word "  +  word  +  " is not a palindrome.");
         }
 
     }
