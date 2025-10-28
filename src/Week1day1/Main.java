@@ -1,3 +1,5 @@
+package Week1day1;
+
 import java.util.Scanner;
 
 public class Main {

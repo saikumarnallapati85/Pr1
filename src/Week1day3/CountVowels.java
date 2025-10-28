@@ -1,3 +1,5 @@
+package Week1day3;
+
 import java.util.Scanner;
 
 public class CountVowels {

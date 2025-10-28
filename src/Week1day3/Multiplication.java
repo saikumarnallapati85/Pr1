@@ -1,3 +1,5 @@
+package Week1day3;
+
 import java.util.Scanner;
 
 public class Multiplication {
@@ -7,7 +9,7 @@ public class Multiplication {
         System.out.print("Enter a number to print its multiplication table: ");
         int num = scanner.nextInt();
 
-        System.out.println("Multiplication Table of " + num + ":");
+        System.out.println("Week1day3.Multiplication Table of " + num + ":");
 
         for (int i = 1; i <= 10; i++) {
             System.out.println(num + " × " + i + " = " + (num * i));

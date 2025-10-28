@@ -52,7 +52,7 @@ class Rectangle extends Shape {
     }
 }
 
-// Main class
+// Week1day1.Main class
 public class ShapeTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

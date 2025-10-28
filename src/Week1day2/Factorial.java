@@ -1,3 +1,5 @@
+package Week1day2;
+
 import java.util.Scanner;
 
 public class Factorial {
@@ -13,7 +15,7 @@ public class Factorial {
             factorial *= i;
         }
 
-        System.out.println("Factorial of " + num + " is: " + factorial);
+        System.out.println("Week1day2.Factorial of " + num + " is: " + factorial);
 
         scanner.close();
     }
