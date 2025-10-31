@@ -1,0 +1,4 @@
+Hello, this is a sample text file.
+This program writes and reads using BufferedWriter and BufferedReader.
+Java makes file handling simple!
+This is new data being appended to the file.
