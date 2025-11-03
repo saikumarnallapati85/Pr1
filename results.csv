@@ -4,3 +4,7 @@ Bob,258,86.00
 Charlie,262,87.33
 David,225,75.00
 Eva,277,92.33
+
+Top Student,Eva,92.33
+Bottom Student,David,75.00
+Class Average,,85.13
